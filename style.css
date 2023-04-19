@@ -6,8 +6,7 @@
 }
 
 body {   
-   width: 1440px;
-   height: 1930px;
+    /* border: 2px solid red; */
    
    background: #EFEFEF;
 }
@@ -23,6 +22,12 @@ body::before {
     z-index: -1;
     background: #535971;
 
+}
+
+.page {
+    /* border: 2px solid blue; */
+    width: 1440px;
+   height: 1930px;
 }
 
 header {
