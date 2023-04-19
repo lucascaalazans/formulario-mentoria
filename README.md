@@ -17,7 +17,7 @@
 Através da aulas do Stage 03 adquiri maiores e fascinantes conhecimentos sobre o HTML e CSS.
 Com uma didática leve e objetiva conheci brevemente sobre o Git e Github.
 
-## 🤸‍♀️ Contato
+## 🎯 Contato
 
 https://www.linkedin.com/in/lucascaalazans
 
