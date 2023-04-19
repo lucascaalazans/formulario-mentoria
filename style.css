@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {   
+   width: 1440px;
+   height: 1930px;
+   
+   background: #EFEFEF;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+
+
+    width: 417px;
+    height: 124px;
+
+    margin-top: 140px;
+    margin-left: 345px;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+}
+
+header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+}
+
+form {
+
+    position: absolute;
+    width: 750px;
+    height: 1084px;
+    
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    margin: 322px 345px 0;
+}
+
+input {
+    
+    background: #FAFAFC;
+
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding-left: 24px;
+    Height: 56px;
+}
+
+
+form fieldset {
+
+    border: none;
+    
+}
+
+form fieldset legend {
+    font-family: 'Staatliches',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    border-bottom: 1px solid #E6E6F0;
+    width: 100%;
+    padding-bottom: 16px;
+    margin-bottom: 20px;  
+
+
+    color: #535971;
+}
+
+.name-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-wrapper label {
+    display: block;
+}
+
+.name-wrapper, .input-wrapper label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    color: #4E4958;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 10px;
+    width: 100%;      
+}
+
+.input-wrapper label {
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+    color: #C1BCCC;
+    margin-left: 10px;
+}
+
+.input-wrapper label span:hover {
+
+    color: #535971;
+}
+
+
+
+.fieldset-wrapper-date h1 {
+
+    font-family: 'Staatliches',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    
+    margin-bottom: 11px;  
+
+
+    color: #535971;
+}
+
+.fieldset-wrapper-date h2 {
+
+    font-family: 'Staatliches',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    margin-top: 16px;
+    margin-bottom: 12px;
+
+
+    color: #535971;
+}
+
+.fieldset-wrapper-date label {
+    display: block;
+}
+
+
+.fieldset-wrapper-date .first-date {
+
+    display: flex;
+    gap: 20px;
+}
+
+.fieldset-wrapper-date .first-date >:nth-child(1) {
+
+    width: 100%;
+    
+}
+
+.first-date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    color: #4E4958;
+}
+
+.first-date label {
+    margin-bottom: 8px;
+}
+
+.first-date label span {
+    color: #C1BCCC;
+    margin-left: 10px;
+}
+
+.first-date label span:hover {
+
+    color: #535971;
+}
+
+.first-date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    color: #4E4958;
+}
+
+
+.second-date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    color: #4E4958;
+}
+
+.fieldset-wrapper-date .second-date {
+
+    display: flex;
+    gap: 20px;
+}
+
+.fieldset-wrapper-date .second-date >:nth-child(1) {
+
+    width: 100%;
+    
+}
+
+
+
+.second-date label {
+    margin-bottom: 8px;
+}
+
+.second-date label span {
+    color: #C1BCCC;
+    margin-left: 10px;
+}
+
+.second-date label span:hover {
+
+    color: #535971;
+}
+
+footer {
+    position: absolute;
+    width: 750px;
+    height: 160px;
+
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+
+    left: 345px;
+    top: 1404px;
+}
+
+#submit {
+
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 608px;
+    height: 55.65px;
+    margin: 52px 71px;
+    border: none;
+
+    background: #FF5374;
+    border-radius: 20px;
+}
+
+#submit:hover {
+
+    background: #c42a49;
+}
+
+input:invalid {
+
+    border: 1px solid #FF1010
+}
