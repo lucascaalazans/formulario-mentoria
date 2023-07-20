@@ -16,7 +16,7 @@
 ## 📚 Meu aprendizado
 
 Através das aulas do Stage 03 do curso Explorer da Rocketseat adquiri maiores e fascinantes conhecimentos sobre o HTML e CSS.
-Coloquei em prática todos os conhecimentos adquiridos nas aulas nesse desafio para criar um formulário de mentoria. Confira o link do projeto em <strong>About</strong>📍
+Coloquei em prática todos os conhecimentos adquiridos nas aulas nesse desafio para criar um formulário de mentoria.
 
 ## 🎯 Contato
 
